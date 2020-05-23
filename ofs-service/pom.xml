@@ -4,16 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.example.maven-project</groupId>
+    <groupId>com.ofs.app</groupId>
     <artifactId>maven-project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>server</artifactId>
+  <artifactId>ofs-service</artifactId>
   <packaging>jar</packaging>
-  <name>Server</name>
-  <description>Logic.</description>
+  <name>OFS Service</name>
+  <description>OFS Service Logic</description>
 
   <build>
     <finalName>${project.artifactId}</finalName>
